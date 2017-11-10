@@ -15,6 +15,7 @@ function nameToAttributes(collection){        //doesn't consider double names, m
 
 function attributesToPhrase(collection){
   return collection.map(function(num){
-    return num.name + ' is from ' + num.hometown;
+    return `${num.name} is from ${num.hometown}`;
   });
 }
+
