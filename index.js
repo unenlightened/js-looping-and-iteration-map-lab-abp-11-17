@@ -18,8 +18,3 @@ function attributesToPhrase(collection){
     return num.name + ' is from ' + num.hometown;
   });
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5dc1b6889f04e159c3448361c91c433a4cc677a0
